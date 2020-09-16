@@ -17,7 +17,14 @@ $btn-strike-text: #685555; $btn-strike-border: #D0C6C6;
 .pb-0 { padding-bottom: 0; } .pb-5 { padding-bottom: 5px; } .pb-10 { padding-bottom: 10px; } .pb-20 { padding-bottom: 20px; } .pb-30 { padding-bottom: 30px; } .pb-40 { padding-bottom: 40px; }
 
 
-// FONT SIZE
+// FONT SETTINGS
 $font-small: 10px; $font-normal: 13px; $font-medium: 15px; $font-big: 18px;
+.bold { font-weight: bold; } .normal { font-weight: normal; }
 
-.default-font {  font-family: Poppins; font-style: normal; font-weight: 500; font-size: 15px; }
+.title { font-family: Poppins; font-style: normal; font-weight: bold; font-size: $font-big; color: black; }
+.desc { font-family: Roboto; font-style: normal; font-weight: normal; font-size: $font-normal; color: $desc-gray; }
+
+.menu { font-family: Poppins; font-style: normal; font-weight: 500; font-size: $font-medium; color: black; }
+.sub-menu { font-family: Poppins; font-style: normal; font-weight: 500; font-size: $font-normal; color: $desc-gray; }
+
+     
