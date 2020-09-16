@@ -1,4 +1,6 @@
 .btn-tag { font-family: Poppins; font-style: normal; font-weight: 500; font-size: $font-medium; 
            color: $btn-strike-text; padding: 5px 15px; padding-left: 12px;
-           border: 1px solid $btn-strike-border; border-radius: 5px; display: initial; }
+           border: 1px solid $btn-strike-border; border-radius: 5px; display: initial; 
+           margin: 5px; text-transform: capitalize;
+        }
 .btn-tag:hover { cursor: pointer; color: $blue; border: 1px solid $blue; }

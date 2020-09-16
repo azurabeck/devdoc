@@ -21,10 +21,14 @@ $btn-strike-text: #685555; $btn-strike-border: #D0C6C6;
 $font-small: 10px; $font-normal: 13px; $font-medium: 15px; $font-big: 18px;
 .bold { font-weight: bold; } .normal { font-weight: normal; }
 
-.title { font-family: Poppins; font-style: normal; font-weight: bold; font-size: $font-big; color: black; }
-.desc { font-family: Roboto; font-style: normal; font-weight: normal; font-size: $font-normal; color: $desc-gray; }
+.title { font-family: Poppins; font-style: normal; font-weight: bold; font-size: $font-big; color: black;  height: min-content; }
+.desc { font-family: Roboto; font-style: normal; font-weight: normal; font-size: $font-normal; color: $desc-gray;  height: min-content; }
 
-.menu { font-family: Poppins; font-style: normal; font-weight: 500; font-size: $font-medium; color: black; }
-.sub-menu { font-family: Poppins; font-style: normal; font-weight: 500; font-size: $font-normal; color: $desc-gray; }
+.menu { font-family: Poppins; font-style: normal; font-weight: 500; font-size: $font-medium; color: black;  height: min-content; }
+.sub-menu { font-family: Poppins; font-style: normal; font-weight: 500; font-size: $font-normal; color: $desc-gray;  height: min-content; }
 
+// HIERARCHY DEFAULT MEASURE
+.dev-document { position: absolute; top: 0; bottom: 0; right: 0; left: 0; padding: 0 15px;
+    .content { margin: 0 -15px; padding: 0 15px; padding-top: 65px; }
+}
      

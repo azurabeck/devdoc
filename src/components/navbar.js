@@ -1,13 +1,14 @@
 import React, { PureComponent } from 'react';
 import { LogoDoc } from './logos'
-import MenuIcon from '@material-ui/icons/Menu'
+import { Search , Menu } from '@material-ui/icons';
 
 class navbar extends PureComponent {
     render() {
         return (
-            <div className='nav-bar'>
-                <MenuIcon />
+            <div className='navbar'>
+                <Menu />
                 <LogoDoc/>
+                <Search />
             </div>
         );
     }

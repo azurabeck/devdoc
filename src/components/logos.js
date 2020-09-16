@@ -1,6 +1,6 @@
 import React from 'react';
 
-export const LogoDoc = ({ onClick , text }) => (
+export const LogoDoc = ({ onClick }) => (
     <div className='logo-doc'> <span className='bold'>dev </span> document </div>
 )
 

@@ -1,2 +1,4 @@
-.logo-doc { font-family: Montserrat; font-style: normal; font-weight: normal; color: $desc-gray;  display: flex; align-items: center; justify-content: center; width: fit-content; }
-.logo-dfndr { font-family: Montserrat; font-style: normal; font-weight: normal; color: $blue; display: flex; align-items: center; justify-content: center; width: fit-content;}
+.logo-doc { font-family: Montserrat; font-style: normal; font-weight: normal; color: $desc-gray;  display: flex; align-items: center; justify-content: center; height: min-content; 
+    span { margin-right: 4px; }
+}
+.logo-dfndr { font-family: Montserrat; font-style: normal; font-weight: normal; color: $blue; display: flex; align-items: center; justify-content: center; height: min-content; }
